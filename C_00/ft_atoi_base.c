@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-int ft_strlen(char *ptr)
+int ft_strlen(char ptr
 {
     int i = 0;
 
@@ -64,7 +64,7 @@ int ft_atoi_base(char *str, char *base)
     {
         if(str[i] == '-')
             sign *= -1;
-            i++;
+        i++;
     }
     len = ft_strlen(&str[i]);
     while(len > 0)
